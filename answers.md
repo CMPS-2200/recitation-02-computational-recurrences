@@ -30,7 +30,4 @@ Place all written answers from `recitation-02.md` here for easier grading.
 
   3. $\log_b a > c$ 
 
-- **6)** (2 points) $W(n)$ is meant to represent the running time of
-  some recursive algorithm. Assume that we always have enough processors for every generated subproblem. Implement the function `span_calc` to compute the empirical span, where the work of the algorithm is given by $W(n)$ and the span of the combine step is equal to the work of the combine step. Test this code by completing the test cases in `test_main.py::test_span`.
-
-- **7)** (3 points) Derive the asymptotic expressions for the span of the recurrences you used in problem 4 above. Confirm that everything matches up as it should. 
+- **7)** (2 points) Derive the asymptotic expressions for the span of the recurrences you used in problem 4 above. Confirm that everything matches up as it should. 

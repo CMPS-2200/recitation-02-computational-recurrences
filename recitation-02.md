@@ -16,7 +16,7 @@ where $W(1) = 1$.
 
 - [ ] 1. In `main.py`, you have stub code which includes a function `simple_work_calc`. Implement this function to return the value of $W(n)$ for arbitrary values of $a$ and $b$ with $f(n)=n$.
 
-- [ ] 2. (1 points) Test that your function is correct by finishing the implementation of `test_main.py::test_simple_work`. calling from the command-line `pytest test_main.py::test_simple_work`
+- [ ] 2. (2 points) Test that your function is correct by finishing the implementation of `test_main.py::test_simple_work`. calling from the command-line `pytest test_main.py::test_simple_work`
 
 - [ ] 3. (2 points) Now implement `work_calc`, which generalizes the above so that we can now input $a$, $b$ and a *function* $f(n)$ as arguments. Test this code by completing the test cases in `test_main.py::test_work`.
 
@@ -50,6 +50,6 @@ where $W(1) = 1$.
 - [ ] 6. (2 points) $W(n)$ is meant to represent the running time of
   some recursive algorithm. Assume that we always have enough processors for every generated subproblem. Implement the function `span_calc` to compute the empirical span, where the work of the algorithm is given by $W(n)$ and the span of the combine step is equal to the work of the combine step. Test this code by completing the test cases in `test_main.py::test_span`.
   
-- [ ] 7. (3 points) Derive the asymptotic expressions for the span of the recurrences you used in problem 4 above. Confirm that everything matches up as it should. 
+- [ ] 7. (2 points) Derive the asymptotic expressions for the span of the recurrences you used in problem 4 above. Confirm that everything matches up as it should. 
 
     **Enter your answer in answers.md**
